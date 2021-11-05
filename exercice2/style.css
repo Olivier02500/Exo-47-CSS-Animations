@@ -2,5 +2,24 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation-name: bgChange;
+    animation-duration: 3s;
+    animation-fill-mode : forwards;
 }
+
+@keyframes bgChange {
+    5% {
+        background-color: #ff8800;
+    }
+    25% {
+        background-color: #eeff00;
+    }
+    75% {
+        background-color: #00ff04;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
 

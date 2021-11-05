@@ -36,11 +36,27 @@
     left: 117px;
 }
 
-#helice {
+#palmeH, #palmeG  {
     animation-name: rotHelice;
     animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rotHelice {
-
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(80deg);
+    }
+    50% {
+        transform: rotate(160deg);
+    }
+    75% {
+        transform: rotate(280deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
